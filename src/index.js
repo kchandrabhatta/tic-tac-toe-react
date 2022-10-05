@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import App from './app';
 
 
 function Square(props) {
@@ -124,7 +125,7 @@ function Square(props) {
     }
   }
   
-  // ========================================
+ 
   
   const root = ReactDOM.createRoot(document.getElementById("root"));
   root.render(<Game />);
@@ -149,3 +150,5 @@ function Square(props) {
     return null;
   }
   
+
+  root.render(<App />);
